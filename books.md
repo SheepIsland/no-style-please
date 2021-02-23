@@ -1,26 +1,7 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
-
-entries:
-  - title: info
-    entries:
-      - title: Currently Software Engineer @ Yandex
-      - title: Java teacher assistant @ MIPT
-      - title: 🎓 MIPT M.S. in Applied Mathematics and Computer Science
-      - title: "Check out my <a href='VIOLETTA_KULAKOVA_CV.pdf'>resume</a>!"
-        #url: <a href="VIOLETTA_KULAKOVA_CV.pdf">Check out my Resume!</a></p>
-  - title: contact
-    entries:
-        - title: "You can get in touch with or find me at:"
-          entries:
-            - title: LinkedIn
-              url: https://www.linkedin.com/in/violetta-k-6a325b189/
-            - title: GitHub
-              url: https://github.com/SheepIsland
-            - title: Telegram
-              url: https://t.me/sheepisland  
-        - title:  "or by sending an e-mail ✉️ to <a href='mailto:kulakova.va@phystech.edu'>kulakova.va@phystech.edu</a>"
-
+---
+layout: page
+title: CS books
+---
   - title: 📚 CS books 
     entries:
       - title: "📃 papers:"
@@ -45,7 +26,7 @@ entries:
         entries:
             - title: Software Engineering at Google
               url: https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791
-      - title: "blogs:"
+      - title: "blogs"
         entries:
             - title: Python, BigData and Machine Learning
               url: https://luminousmen.com
@@ -82,26 +63,7 @@ entries:
             - title: Cracking the coding interview
               url: https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478285
 
-  #- title: all posts
-  #  post_list:
-  #    limit: 5
-  #    show_more: true
-  #    show_more_text: See archive...
-  #    show_more_url: archive.html
 
-  #- title: posts by category
-  #  post_list:
-  #    category: example2
-  #    show_more: true
-  #    show_more_text: See more posts...
-  #    show_more_url: example2-archive.html
+This is an example page!
 
-  #- title: rss
-  #  url: feed.xml
-  
-  #- title: 📚 CS books 
-  #  url: books
-  
-  #- title: PRO TIP
-  #  entries:
-  #    - title: to edit this menu, edit _data/menu.yml file
+It's very similar to a `post` layout, with the only difference that the publish date is not shown!
